@@ -13,6 +13,10 @@ i18next.use(initReactI18next).init({
   fallbackLng: "en",
   debug: false,
   resources,
+  interpolation: {
+    escapeValue: false,
+  },
+  compatibilityJSON: "v4",
 });
 
 export default i18next;

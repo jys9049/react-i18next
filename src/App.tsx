@@ -7,6 +7,8 @@ function App() {
     i18n.changeLanguage(lang);
   };
 
+  const count = 5;
+
   return (
     <div
       style={{
@@ -23,7 +25,8 @@ function App() {
         <button onClick={() => handleLangChange("en")}>EN</button>
       </div>
       <div>
-        <h1>{t("안녕")}</h1>
+        <h1>{t("테스트")}</h1>
+        <h1>{t("{{count}} 마리", { count: count })}</h1>
       </div>
     </div>
   );

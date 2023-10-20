@@ -4,6 +4,7 @@ module.exports = {
   input: ["./src/**/*.{ts,tsx}"],
   output: "./",
   options: {
+    compatibilityJSON: "v4",
     debug: true,
     func: {
       list: ["i18next.t", "i18n.t", "t"],

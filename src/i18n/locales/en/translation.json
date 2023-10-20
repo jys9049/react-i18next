@@ -1,4 +1,5 @@
 {
   "테스트": "test",
-  "안녕": "[작성 필요]"
+  "{{count}} 마리_one": "{{count}} animal",
+  "{{count}} 마리_other": "{{count}} animals"
 }
